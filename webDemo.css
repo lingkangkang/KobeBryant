@@ -1,0 +1,118 @@
+body,div ,img{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+html{
+    font-size:62.5%;
+}
+.content{
+    width:100%;
+    height: 100%;
+    background-color: gray;
+}
+.headContent{
+    width:100%;
+    height: 5%;
+    background-color: cadetblue;
+    line-height: 100%;
+}
+.headContent p{
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: honeydew;
+}
+.bodyContent{
+    width: 100%;
+    height:85%;
+    background-color: #333333;
+    overflow: auto;
+}
+.footContent{
+    width: 100%;
+    height: 10%;
+    display: table;
+}
+.footContent .footBody{
+    height: 100%;
+    width: 100%;
+    display:table-cell;
+    vertical-align: middle;
+}
+.bodyContent img{
+    width: 16.66%;
+    height: 80px;
+    float: left;
+}
+
+
+.footContent .footBody label{
+    display: inline-block;
+    background-color: seagreen;
+    float: left;
+    margin: 2%;
+    width: 21%;
+    height: 40px;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: larger;
+}
+/*touch calss*/
+.touchStart{
+    color: black !important;
+    background-color:wheat !important;
+}
+.touchMove{
+    color: white;
+    background-color:seagreen ;
+}
+.touchEnd{
+    color: white;
+    background-color:seagreen ;
+}
+/*.footContent .footBody label:hover{*/
+    /*background-color: olivedrab;*/
+    /*color: black;*/
+/*}*/
+/*APP使用(max-device-width   响应式使用(max-width*/
+@media  screen and (max-device-width:768px)
+{
+    .headContent  p{
+        font-size: 3rem;
+    }
+    .bodyContent img{
+        height: 200px;
+    }
+    .content{
+        height: 1024px;
+    }
+}
+@media  screen and (max-device-width:375px)
+{
+    .headContent  p{
+        font-size: 2rem;
+    }
+    .bodyContent img{
+        width: 50%;
+        height: 200px;
+    }
+    .content{
+        height: 627px;
+    }
+}
+@media  screen and (max-device-width:320px)
+{
+    .headContent  p{
+        font-size: 1rem;
+    }
+    .bodyContent img{
+        width: 100%;
+        height:300px;
+    }
+    .content{
+        height: 480px;
+    }
+}
