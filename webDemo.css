@@ -48,12 +48,12 @@ html{
 }
 
 
-.footContent .footBody label{
+.footContent .footBody a{
     display: inline-block;
     background-color: seagreen;
     float: left;
     margin: 2%;
-    width: 21%;
+    width: 16%;
     height: 40px;
     border-radius: 12px;
     text-align: center;
@@ -78,7 +78,7 @@ html{
     /*background-color: olivedrab;*/
     /*color: black;*/
 /*}*/
-/*APP使用(max-device-width   响应式使用(max-width*/
+/*APP使锟斤拷(max-device-width   锟斤拷应式使锟斤拷(max-width*/
 @media  screen and (max-device-width:768px)
 {
     .headContent  p{

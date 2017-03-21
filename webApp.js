@@ -19,19 +19,19 @@ $(".footContent .footBody label").on("swipeleft",function(){
 })
 //footer
 $(".footContent .footBody label").eq(0).on("click",function(){
-    alert("÷îºÚÎÏ¿Ç »¹Ã»¿ª·¢ºÃ")
+    alert("èœ—å£³ è¿˜æ²¡å¼€å‘å¥½")
 })
 $(".footContent .footBody label").eq(1).on("click",function(){
-    alert("÷îºÚÎÏ¿Ç »¹Ã»¿ª·¢ºÃ")
+    alert("èœ—å£³ è¿˜æ²¡å¼€å‘å¥½")
 })
 $(".footContent .footBody label").eq(2).on("click",function(){
-    alert("÷îºÚÎÏ¿Ç »¹Ã»¿ª·¢ºÃ")
+    alert("èœ—å£³ è¿˜æ²¡å¼€å‘å¥½")
 })
 $(".footContent .footBody label").eq(3).on("click",function(){
-    alert("÷îºÚÎÏ¿Ç »¹Ã»¿ª·¢ºÃ")
+    alert("èœ—å£³ è¿˜æ²¡å¼€å‘å¥½")
     })
 
-//±íÍ·ÑÕÉ«±ä»¯
+//ï¿½ï¿½Í·ï¿½ï¿½É«ï¿½ä»¯
  var colorVally=['yellow','white','black','blue','yellow','white','black','blue','yellow','blue']
  setInterval(function(){
      var numbers=Math.ceil(Math.random()*10)
